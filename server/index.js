@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const pool = require("./db");
+const { Client } = require("pg");
 
 //middleware
 app.use(cors());
@@ -80,3 +81,11 @@ app.delete("/todos/:id", async(req, res) => {
 app.listen(5000, () => {
     console.log("server has started on port 5000");
 });
+
+const client = pool.connect((err) => {
+    if (err) {
+        console.log("Connect to database failed");
+    } else {
+        console.log("Connect to database successfully!");
+    }
+})

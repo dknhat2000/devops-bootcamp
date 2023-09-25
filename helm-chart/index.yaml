@@ -3,12 +3,22 @@ entries:
   nhat-be-server:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-23T11:15:05.77159966+07:00"
+    created: "2023-09-25T06:50:29.699871929+07:00"
     description: A Helm chart for Kubernetes
-    digest: 48c9da6fc9b3de86cac85bd9980594929a385a2cb50a40ac291709e65f57a4bf
+    digest: 88ef12158f374db96c26bab0f9490c45706ba71279ae6630b95ae71a531a03f5
+    name: nhat-be-server
+    type: application
+    urls:
+    - nhat-be-server-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-25T06:50:29.699594892+07:00"
+    description: A Helm chart for Kubernetes
+    digest: 3acd200af03c0bc6d0b40d6be45dc283c40d7d30556f66a512c1881f5d9e3263
     name: nhat-be-server
     type: application
     urls:
     - nhat-be-server-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-23T11:15:05.770920841+07:00"
+generated: "2023-09-25T06:50:29.699188179+07:00"
